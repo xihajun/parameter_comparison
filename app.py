@@ -122,4 +122,4 @@ if st.button("Compare"):
 
     with col2:
         st.markdown("Parameters from AXS Command")
-        st.table(pd.DataFrame(parse_command(cmd2).items(), columns=['Key', 'Value']).sort_values(by=['Key'])) s
+        st.table(pd.DataFrame(parse_command(cmd2).items(), columns=['Key', 'Value']).sort_values(by=['Key']))
