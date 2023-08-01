@@ -2,3 +2,4 @@ fuzzywuzzy
 python-Levenshtein
 pandas
 streamlit
+tabulate
